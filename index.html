@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MANHATTAN - COFFEE HOUSE</title>
     <link rel="icon" href="./assets/logo.ico" type="image/x-icon">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Lato&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./estilo.css">
 </head>
 <body>
     <div class="topo">
@@ -18,12 +18,12 @@
 
         <div class="menu-nav">
             <a href="#informacoes">Informações</a>
-            <a href="#contatos">Contatos</a>
+            <a href="#contato">Contatos</a>
             <a href="#horarios">Horários</a>
         </div>
     </div>
 
-    <div class="banner" id="#banner">
+    <div class="banner container-image" id="banner">
         <h1>MANHATTAN - COFFEE HOUSE</h1>
     </div>
 
@@ -44,7 +44,7 @@
             </p>
         </div>
 
-        <div class="container-paralax">
+        <div class="container-image cafe-manhattan">
             <h3>Um bom café é motivo de alegria!</h3>
         </div>
 
@@ -64,7 +64,7 @@
             </p>
         </div>
 
-        <div class="container-paralax">
+        <div class="container-image vida-cafe">
             <h3>A vida só começa depois do café!</h3>
         </div>
 
@@ -84,11 +84,17 @@
         </div>
     </div>
 
-    <div id="contato" class="contato">
+    <div id="contato" class="container-contato container-image">
         <h2>Contatos & Endereço</h2>
-        <div class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.116680275108!2d-43.36346792468744!3d-22.982736479201705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2ed54ec2e1%3A0x4431d262cad1d163!2sAv.%20Ayrton%20Senna%2C%203000%20-%20Barra%20da%20Tijuca%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022775-003!5e0!3m2!1spt-BR!2sbr!4v1716841832922!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.116814396121!2d-43.36308168443389!3d-22.982731546364604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2ed54ec2e1%3A0x4431d262cad1d163!2sAv.%20Ayrton%20Senna%2C%203000%20-%20Barra%20da%20Tijuca%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022775-904!5e0!3m2!1spt-BR!2sbr!4v1673618057703!5m2!1spt-BR!2sbr"
+        width="1024"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
 
         <div class="lista-contato">
             <p>Telefone & Whatsapp: (21) 99999-5555</p>
@@ -97,43 +103,43 @@
         </div>
     </div>
 
-    <div id="horarios" class="horarios">
+    <div id="horarios" class="horarios container-image">
         <h2>HORÁRIOS DE FUNCIONAMENTO</h2>
 
         <div class="lista-horarios">
             <ul>
                 <li>
-                    <h3>Segunda</h3>
+                    <h4>Segunda</h4>
                     <div></div>
                     <span>Fechado</span>
                 </li>
                 <li>
-                    <h3>Terça</h3>
+                    <h4>Terça</h4>
                     <div></div>
                     <p>09:00 - 22:00</p>
                 </li>
                 <li>
-                    <h3>Quarta</h3>
+                    <h4>Quarta</h4>
                     <div></div>
                     <p>09:00 - 22:00</p>
                 </li>
                 <li>
-                    <h3>Quinta</h3>
+                    <h4>Quinta</h4>
                     <div></div>
                     <p>09:00 - 22:00</p>
                 </li>
                 <li>
-                    <h3>Sexta</h3>
+                    <h4>Sexta</h4>
                     <div></div>
                     <p>09:00 - 22:00</p>
                 </li>
                 <li>
-                    <h3>Sábado</h3>
+                    <h4>Sábado</h4>
                     <div></div>
                     <p>09:00 - 22:00</p>
                 </li>
                 <li>
-                    <h3>Domingo</h3>
+                    <h4>Domingo</h4>
                     <div></div>
                     <p>12:00 - 22:00</p>
                 </li>
@@ -143,9 +149,10 @@
 
     <div class="rodape">
         <p>&copy; Manhattan - Coffee House - Todos os direitos reservados</p>
-        <p>Desenvolvido por Jefferson Ferreira Developer</p>
-        <a href="#banner"><img src="./assets/seta-para-cima.png" alt=""> </a>
+        <p>Desenvolvido por <a class="link-developer" href="https://www.linkedin.com/in/jefferson-ferreira-desenvolvedor/">Jefferson Ferreira Developer</a></p>
+        <a class="link" href="#banner"> </a>
     </div>
     
 </body>
 </html>
+
